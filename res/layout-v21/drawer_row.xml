@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.wubydax.romcontrol.NavDrawerIcon android:layout_gravity="center_vertical" android:id="@id/nav_item_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="24.0dip" android:src="@mipmap/ic_launcher" android:tint="?nav_item_color_selector" android:tintMode="src_atop" />
+    <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/item_name" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Nav Item" android:drawablePadding="16.0dip" android:backgroundTint="?nav_item_color_selector" />
+</LinearLayout>

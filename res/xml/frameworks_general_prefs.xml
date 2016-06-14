@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Lockscreen Date Time Color">
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Text Color hours" android:key="kg_clock_hours_color" android:summary="Choose a color" android:defaultValue="\#ffffffff" alphaSlider="false" />
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Text Color minutes" android:key="kg_clock_minutes_color" android:summary="Choose a color" android:defaultValue="\#ffffffff" alphaSlider="false" />
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Text Color seconds Hours" android:key="kg_clock_second_color" android:summary="Choose a color" android:defaultValue="\#ffffffff" alphaSlider="false" />
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="The color of the date text" android:key="kg_date_color" android:summary="Choose a color" android:defaultValue="\#ffffffff" alphaSlider="false" />
+        <SwitchPreference android:title="Show seconds in hours" android:key="lock_seconds" android:defaultValue="0" android:summaryOn="Show" android:summaryOff="Hide" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Lockscreen Notification Count">
+        <com.wubydax.romcontrol.prefs.MyListPreference android:entries="@array/lockscreen_notif_entries" android:title="Notifications Shown on Lockscreen" android:key="lockscreen_notifications" android:summary="Number shown on lockscreen" android:defaultValue="2" android:entryValues="@array/lockscreen_notif_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Quickpanel Swipe Right Mod">
+        <SwitchPreference android:title="Single swipe for Quickpanel" android:key="tweaks_qs_pulldown" android:defaultValue="true" android:summaryOn="Feature is enabled" android:summaryOff="Feature is disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notification Panel Color">
+        <SwitchPreference android:title="Enable to apply colors" android:key="link_colors" android:summaryOn="enabled" android:summaryOff="disabled" />
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Notification Panel background color" android:key="notification_background_color" android:defaultValue="\#ff000000" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Expanded Notification Date Time Color">
+        <SwitchPreference android:title="Stock clock" android:key="hide_header_stock_clock" android:summaryOn="Show" android:summaryOff="Hide" />
+        <SwitchPreference android:title="Mod clock" android:key="hide_header_mod_clock" android:summaryOn="Show" android:summaryOff="Hide" />
+        <SwitchPreference android:title="Mod clock second" android:key="hide_header_mod_clock_second" android:dependency="hide_header_mod_clock" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Mod clock hours color" android:key="header_mod_clock_hours_color" android:dependency="hide_header_mod_clock" android:defaultValue="\#ff325d84" alphaSlider="false" />
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Mod clock minute color" android:key="header_mod_clock_minutes_color" android:dependency="hide_header_mod_clock" android:defaultValue="\#ff325d84" alphaSlider="false" />
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Mod clock second color" android:key="header_mod_clock_seconds_color" android:dependency="hide_header_mod_clock" android:defaultValue="\#ff325d84" alphaSlider="false" />
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Data color" android:key="date_header_color" android:dependency="hide_header_mod_clock" android:defaultValue="\#ff325d84" alphaSlider="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

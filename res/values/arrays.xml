@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_drawer_items">
+        <item>Status Bar Mods</item>
+        <item>Phone Mods</item>
+        <item>Notification and Lockscreen</item>
+        <item>Useful Apps</item>
+        <item>Set Theme</item>
+    </string-array>
+    <string-array name="theme_items">
+        <item>Dark theme</item>
+        <item>Light theme</item>
+    </string-array>
+    <string-array name="lockscreen_notif_entries">
+        <item>2 (Stock)</item>
+        <item>3 max shown</item>
+        <item>4 max shown</item>
+        <item>5 max shown</item>
+    </string-array>
+    <string-array name="lockscreen_notif_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
