@@ -14,10 +14,6 @@
     <PreferenceCategory android:title="Quickpanel Swipe Right Mod">
         <SwitchPreference android:title="Single swipe for Quickpanel" android:key="tweaks_qs_pulldown" android:defaultValue="true" android:summaryOn="Feature is enabled" android:summaryOff="Feature is disabled" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="Notification Panel Color">
-        <SwitchPreference android:title="Enable to apply colors" android:key="link_colors" android:summaryOn="enabled" android:summaryOff="disabled" />
-        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Notification Panel background color" android:key="notification_background_color" android:defaultValue="\#ff000000" alphaSlider="true" hexValue="true" />
-    </PreferenceCategory>
     <PreferenceCategory android:title="Expanded Notification Date Time Color">
         <SwitchPreference android:title="Stock clock" android:key="hide_header_stock_clock" android:summaryOn="Show" android:summaryOff="Hide" />
         <SwitchPreference android:title="Mod clock" android:key="hide_header_mod_clock" android:summaryOn="Show" android:summaryOff="Hide" />
