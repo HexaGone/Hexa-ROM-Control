@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <RelativeLayout android:id="@id/navigationHeader" android:background="@drawable/header_image_light" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="168.0dip">
         <RelativeLayout android:background="#55000000" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
-            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="35.0dip" android:textColor="#ccffffff" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HEXA ROM" android:layout_centerVertical="true" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="35.0dip" android:textColor="#ccffffff" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hexa ROM" android:layout_centerVertical="true" />
         </RelativeLayout>
     </RelativeLayout>
     <View android:id="@id/separator" android:background="#1f000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/navigationHeader" />
