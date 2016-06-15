@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.wubydax.romcontrol" platformBuildVersionCode="23" platformBuildVersionName="6.0.1">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.wubydax.romcontrol" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
-    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:theme="@style/Theme.Transparent">
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:theme="@style/Theme.Transparent">
         <activity android:label="@string/app_name" android:name="com.wubydax.romcontrol.MainViewActivity" android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
